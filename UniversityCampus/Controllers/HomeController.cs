@@ -1,5 +1,5 @@
 ﻿using System.Web.Mvc;
-
+using System;
 namespace Campus.Controllers
 {
     public class HomeController : Controller
@@ -7,6 +7,7 @@ namespace Campus.Controllers
         public ActionResult Index()
         {
             return View();
+            Console.WriteLine("Hello World");
         }
 
         public ActionResult About()
